@@ -12,6 +12,8 @@ The MechaCar is the newest prototype developed by AutoRU. There have been some p
 
 ## Linear Regression to Predict MPG
 
+
+
 ![Deliverable 1](https://user-images.githubusercontent.com/90656004/151676724-bc3213a5-70ec-472e-9617-b2e7d7c867aa.PNG)
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -22,6 +24,8 @@ The MechaCar is the newest prototype developed by AutoRU. There have been some p
 
 
 ## Summary Statistics on Suspension Coil
+
+Using the MechaCar Suspension_Coil.csv dataset, summary statics tables were generated to show the suspension coil’s PSI continuous variable across all manufacturing lots and the PSI metrics (mean, median, variance, and standard deviation) for Lots 1, 2, and 3.
 
 ![Deliverable 2 total_summary](https://user-images.githubusercontent.com/90656004/151676878-465872cd-28d4-4f20-bc4d-ace0e2cdabe4.PNG)
 
