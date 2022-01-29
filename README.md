@@ -37,15 +37,18 @@ Breaking the manufacturing data down by each lot reveals that only Lot 1 and Lot
 
 T-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
+Across all three manufacturing lots, the true mean of the sample was 1498.78, and the p-value was 0.06. Since the p-value is higher than the assumed statistical significance of 0.05, **there is not sufficient evidence to reject the null hypothesis**. The mean of all three manufacturing lots is statistically similar to the population mean of 1,500 pounds per square inch.
 ![Deliverable 3 sample](https://user-images.githubusercontent.com/90656004/151677125-4abc150f-0757-4a3d-85c8-3cb15aef16de.PNG)
 
+Lot 1 has a true mean of 1500 and a p-value of 1. The **null hypothesis cannot be rejected** since there is no statistical difference between the sample mean and population mean.
 ![Deliverable 3 Lot 1](https://user-images.githubusercontent.com/90656004/151677128-72eed3c3-3d74-4b1d-9365-33041db361e7.png)
 
+Lot 2 has a true mean of 1500.2 and a p-value of 0.61. Similar to Lot 1, the **null hypothesis cannot be rejected** since the p-value is much higher than 0.05 assumed statistical significance and there is no statistical difference between the sample mean and population mean.
 ![Deliverable 3 Lot 2](https://user-images.githubusercontent.com/90656004/151677133-841a4523-77df-4c06-99f2-de1b9076360b.png)
 
+Lot 3 is another story. It has a true mean of 1496.14 and a p-value of 0.04. With a lower p-value than the 0.05 assumed statistical significance, the **null hypothesis can be rejected and the alternative hypothesis can be accepted**. This means that Lot 3 is statistically different from the population mean of 1,500 pounds per square inch. 
 ![Deliverable 3 Lot 3](https://user-images.githubusercontent.com/90656004/151677138-3f49d4aa-e10e-42de-ae76-904f794d2425.png)
 
-- Briefly summarize your interpretation and findings for the t-test results
 
 ## Study Design: MechaCar vs Competition
 
