@@ -34,6 +34,14 @@ The MechaCar is the newest prototype developed by AutoRU. There have been some p
 
 - Briefly summarize your interpretation and findings for the t-test results
 
+![Deliverable 3 sample](https://user-images.githubusercontent.com/90656004/151677125-4abc150f-0757-4a3d-85c8-3cb15aef16de.PNG)
+
+![Deliverable 3 Lot 1](https://user-images.githubusercontent.com/90656004/151677128-72eed3c3-3d74-4b1d-9365-33041db361e7.png)
+
+![Deliverable 3 Lot 2](https://user-images.githubusercontent.com/90656004/151677133-841a4523-77df-4c06-99f2-de1b9076360b.png)
+
+![Deliverable 3 Lot 3](https://user-images.githubusercontent.com/90656004/151677138-3f49d4aa-e10e-42de-ae76-904f794d2425.png)
+
 
 ## Study Design: MechaCar vs Competition
 
