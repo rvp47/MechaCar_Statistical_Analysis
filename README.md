@@ -2,7 +2,7 @@
 
 ## Overview of Analysis
 
-The MechaCar is the newest prototype developed by AutoRU. There have been some production issues that are hindering the the manufacturing team's proggress. This analysis aims to provide insights that may help the team figure out what must be improved. In this analysis, a multiple linear regression analysis was performed to identify which variables in the dataset predict the mpg of the MechaCar prototypes. Next, summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots were collected. T-Tests were run to determine if the manufacturing lots are statistically different from the mean population. Finally, a statistical study was designed to compare vehicle performance of the MechaCar vehicles against other manufacturers' vehicles.
+The MechaCar is the newest prototype developed by AutoRU. There have been some production issues that are hindering the the manufacturing team's progress. This analysis aims to provide insights that may help the team figure out what must be improved. In this analysis, a multiple linear regression analysis was performed to identify which variables in the dataset predict the mpg of the MechaCar prototypes. Next, summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots were collected. T-Tests were run to determine if the manufacturing lots are statistically different from the mean population. Finally, a statistical study was designed to compare vehicle performance of the MechaCar vehicles against other manufacturers' vehicles.
 
 - Deliverable 1: Linear Regression to Predict MPG
 - Deliverable 2: Summary Statistics on Suspension Coils
@@ -24,7 +24,7 @@ This linear model does effectively predict the mpg of MechaCar prototypes becaus
 
 ## Summary Statistics on Suspension Coil
 
-Using the MechaCar Suspension_Coil.csv dataset, summary statics tables were generated to show the suspension coil’s PSI continuous variable across all manufacturing lots and the PSI metrics (mean, median, variance, and standard deviation) for Lots 1, 2, and 3. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
+Summary statics tables were generated to show the suspension coil’s PSI continuous variable across all manufacturing lots and the PSI metrics (mean, median, variance, and standard deviation) for Lots 1, 2, and 3. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
 
 The PSI summary chart for all three manufacturing lots showed that the variance of the suspension coils was **62.29 pounds per square inch**. This does not exceed the 100 pounds per square inch specification.
 ![Deliverable 2 total_summary](https://user-images.githubusercontent.com/90656004/151676878-465872cd-28d4-4f20-bc4d-ace0e2cdabe4.PNG)
@@ -52,7 +52,8 @@ Lot 3 is another story. It has a true mean of 1496.14 and a p-value of 0.04. Wit
 
 ## Study Design: MechaCar vs Competition
 
-- What metric or metrics are you going to test?
-- What is the null hypothesis or alternative hypothesis?
-- What statistical test would you use to test the hypothesis? And why?
-- What data is needed to run the statistical test?
+MechaCar is known to have higher-priced vehicles than other competitors, so it can be tempting to choose another manufacturer's vehicles solely based on price tag. To improve MechaCar's competitiveness against other manufacturers', additional analysis can be performed to show that MechaCar's costs are justified. The metrics used would be maintenance cost, safety rating, customer satisfaction, and selling price. Maintenance cost, safety rating, and customer satisfaction would be independent variables, and selling price would be the dependent variable.
+
+The null hypothesis would be that MechaCar's selling prices are not justified based on their maintenance cost, safety rating, and customer satisfaction. The alternative hypothesis would be that their selling prices are justified based on their maintenance cost, safety rating, and customer satisfaction.
+
+A multiple linear regression would be best suited to determine whether maintenance cost and safety rating have a high correlation/predictability with respect to the selling price and which one has the greatest impact on the selling price. To generate this multiple linear regression, the following data from MechaCar and other manufacturers will need to be collected: selling prices, maintenance costs, safety rating, and customer satisfaction.
