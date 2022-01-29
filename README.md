@@ -12,16 +12,13 @@ The MechaCar is the newest prototype developed by AutoRU. There have been some p
 
 ## Linear Regression to Predict MPG
 
-
-
 ![Deliverable 1](https://user-images.githubusercontent.com/90656004/151676724-bc3213a5-70ec-472e-9617-b2e7d7c867aa.PNG)
 
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Vehicle length and ground clearance provided a non-random amount of variance to the mpg values in the dataset. These metrics have a statistically significant impact on mpg.
 
-- Is the slope of the linear model considered to be zero? Why or why not?
+The slope of the linear model is **not considered to be zero**. This is due to the p-value of 5.35e-11 being much lower than the 0.05 assumed statistical significance. Thus, there is strong evidence to **reject the null hypothesis**.
 
--Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-
+This linear model does effectively predict the mpg of MechaCar prototypes because of its r-squared value of 0.7149, which  indicates that this model is 71.49% accurate.
 
 ## Summary Statistics on Suspension Coil
 
